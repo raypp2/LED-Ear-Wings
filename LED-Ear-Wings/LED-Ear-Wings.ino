@@ -270,7 +270,7 @@ void brightMed() {
 }
 
 void brightOffensive() {
-  currentBrightness = 100;
+  currentBrightness = 75;
   FastLED.setBrightness(currentBrightness);
   handleRoot();
 }
